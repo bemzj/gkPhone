@@ -183,7 +183,6 @@ body{
             width: 77%;
             margin-left: 5%;
             font-size: 0.26rem;
-            height: 0.7rem;
             >div{
                 width: 100%;
                 margin-left: -2px;
@@ -249,49 +248,29 @@ body{
         }
     }
 }
-.message2{
-    .messageBox .mbInput .mbLeft{
-        margin-left: 9%;
-    }
-    .messageBox .mbInput .firstDiv{
-        margin-left:0%;
-        width: 27%;
-    }
-    .messageBox .mbInput .mbRight{
-        width: 68%;
-    }
-    .messageBox .mbInput .mbRight button{
-        width: 40%; 
-    }
-}
-$l45:0.5rem;
+$l45:0.4rem;
 .details{
     background-color: white;
-    padding-bottom: 0.3rem;
+    padding-bottom: 0.2rem;
     margin-bottom: 0.2rem;
     .messageBox .mbInput .mbLeftp p{
         line-height: $l45;
+        padding: 0.075rem 0;
     }
     .messageBox ul li:nth-child(1) .mbInput{
-        margin: 0.4rem 0 0.3rem;
+        margin: 0.2rem 0 0rem;
     }
     .messageBox ul li .mbInput{
         margin-top: 0;
     }
-    .messageBox .mbInput .mbRightp{
-        height: $l45;
-    }
     .messageBox .mbInput .mbLeftp span{
-        line-height: $l45;
+        line-height: 0.5rem;
     }
     .messageBox .mbInput .mbRightp p{
         line-height: $l45;
+        padding: 0.075rem 0;
         color: #333333;
         margin-left: 0.2rem;
-        span{
-            color: $blue;
-            font-weight: bold;
-        }
     }
 }
 .money{
@@ -306,41 +285,25 @@ $l45:0.5rem;
             p:nth-child(1){
                 color: #888888;
             }
+            .redM{
+                color: $red;
+                font-weight: bold;
+                font-size: 0.28rem;
+            }
         }
+        
     }
 }
-.pay{
-    height: 1.0rem;
-    width: 100%;
+.crBtn{
     background-color: white;
-    position: relative;
-    .pyRight{
-        width: 55%;
-        height: 100%;
-        margin-left: 2.665%;
-        line-height: 1.0rem;
-        font-size: 0.26rem;
-        color: #888888;
-        span{
-            font-size: 0.32rem;
-            color: $red;
-            font-family: arial;
-            font-weight: bold;
-        }
+    padding: 0.3rem 0;
+    button{
+        width: 86.67%;
+        
     }
-    a{
-        display: block;
-        width: 29.33%;
-        height: 0.7rem;
-        line-height: 0.7rem;
-        text-align: center;
-        border-radius: 0.4rem;
-        position: absolute;
-        right: 2.67%;
-       bottom: 0.15rem;
-       font-size: 0.3rem;
-       background-color: $blue;
-       color: white;
-       border-radius: 0.35rem;
+    button:nth-child(1){
+        margin-bottom: 0.2rem;
     }
 }
+
+

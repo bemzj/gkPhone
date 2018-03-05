@@ -141,8 +141,7 @@ body {
   .messageBox .mbInput .mbRight {
     width: 77%;
     margin-left: 5%;
-    font-size: 0.26rem;
-    height: 0.7rem; }
+    font-size: 0.26rem; }
     .messageBox .mbInput .mbRight > div {
       width: 100%;
       margin-left: -2px;
@@ -195,37 +194,24 @@ body {
       font-size: 0.26rem;
       border: 0; }
 
-.message2 .messageBox .mbInput .mbLeft {
-  margin-left: 9%; }
-.message2 .messageBox .mbInput .firstDiv {
-  margin-left: 0%;
-  width: 27%; }
-.message2 .messageBox .mbInput .mbRight {
-  width: 68%; }
-.message2 .messageBox .mbInput .mbRight button {
-  width: 40%; }
-
 .details {
   background-color: white;
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.2rem;
   margin-bottom: 0.2rem; }
   .details .messageBox .mbInput .mbLeftp p {
-    line-height: 0.5rem; }
+    line-height: 0.4rem;
+    padding: 0.075rem 0; }
   .details .messageBox ul li:nth-child(1) .mbInput {
-    margin: 0.4rem 0 0.3rem; }
+    margin: 0.2rem 0 0rem; }
   .details .messageBox ul li .mbInput {
     margin-top: 0; }
-  .details .messageBox .mbInput .mbRightp {
-    height: 0.5rem; }
   .details .messageBox .mbInput .mbLeftp span {
     line-height: 0.5rem; }
   .details .messageBox .mbInput .mbRightp p {
-    line-height: 0.5rem;
+    line-height: 0.4rem;
+    padding: 0.075rem 0;
     color: #333333;
     margin-left: 0.2rem; }
-    .details .messageBox .mbInput .mbRightp p span {
-      color: #0068b7;
-      font-weight: bold; }
 
 .money {
   background-color: white;
@@ -237,37 +223,17 @@ body {
     border-bottom: 1px solid #e4e4e4; }
     .money .mnyBox .box p:nth-child(1) {
       color: #888888; }
-
-.pay {
-  height: 1.0rem;
-  width: 100%;
-  background-color: white;
-  position: relative; }
-  .pay .pyRight {
-    width: 55%;
-    height: 100%;
-    margin-left: 2.665%;
-    line-height: 1.0rem;
-    font-size: 0.26rem;
-    color: #888888; }
-    .pay .pyRight span {
-      font-size: 0.32rem;
+    .money .mnyBox .box .redM {
       color: #f81200;
-      font-family: arial;
-      font-weight: bold; }
-  .pay a {
-    display: block;
-    width: 29.33%;
-    height: 0.7rem;
-    line-height: 0.7rem;
-    text-align: center;
-    border-radius: 0.4rem;
-    position: absolute;
-    right: 2.67%;
-    bottom: 0.15rem;
-    font-size: 0.3rem;
-    background-color: #0068b7;
-    color: white;
-    border-radius: 0.35rem; }
+      font-weight: bold;
+      font-size: 0.28rem; }
 
-/*# sourceMappingURL=pay.css.map */
+.crBtn {
+  background-color: white;
+  padding: 0.3rem 0; }
+  .crBtn button {
+    width: 86.67%; }
+  .crBtn button:nth-child(1) {
+    margin-bottom: 0.2rem; }
+
+/*# sourceMappingURL=confirm.css.map */

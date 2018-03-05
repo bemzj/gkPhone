@@ -1,4 +1,56 @@
+$black:#555555;
+$blue:#0068b7;
+$e4:#e4e4e4;
+$red:#f81200;
+$color8:#888888;
 .box{
     width: 94.67%;
     margin: 0 auto;
+}
+#headers{
+    text-align: center;
+    font-size: 0.32rem;
+    line-height: 0.9rem;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    position: relative;
+    .returnBack{
+        position: absolute;
+        left: 2.665%;
+        top: 0;
+        height: 100%;
+        width: 2.4%;
+        background: url(../img/rBtn.png)no-repeat center center;
+        background-size: 100%;
+    }
+    .moreNav{
+        position: absolute;
+        right: 2.665%;
+        top: 0;
+        width: 4%;
+        height: 100%;
+        background: url(../img/threeMore.png)no-repeat center center;
+        background-size: 100%;
+    }
+}
+.blueBtn{
+    display: block;
+    height: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid $blue;
+    background-color: $blue;
+    margin: 0 auto;
+    font-size: 0.26rem;
+    color: white; 
+}
+.rayBtn{
+    display: block;
+    height: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid $e4;
+    background-color: transparent;
+    margin: 0 auto;
+    font-size: 0.26rem;
+    color: $black;
 }

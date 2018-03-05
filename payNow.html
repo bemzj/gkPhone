@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>首页</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta content="yes" name="apple-mobile-web-app-capable"/>
+	    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+	    <meta content="telephone=no" name="format-detection"/>
+	    <link rel="stylesheet" href="css/demo.css" />
+	    <link rel="stylesheet" href="css/ydui.css" />
+	    <link rel="stylesheet" href="css/reset.css" />
+	    <link rel="stylesheet" href="css/public.css" />
+	    <link rel="stylesheet" href="css/payNow.css" />
+	    <link rel="stylesheet" href="css/popWindow.css" />
+	    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/rem.js" ></script>
+		<script type="text/javascript" src="js/popWin.js" ></script>
+	</head>
+	<body>
+		<div id="headers">
+			<p>付款</p>
+			<button class="returnBack"></button>
+			<button class="moreNav"></button>
+		</div>
+		<div id="success" style="display: none;">
+			<ul>
+				<li>
+					<img src="img/success.png" />
+				</li>
+				<li>
+					<p>付款成功</p>
+				</li>
+				<li>
+					<p>您已成功购买该订单</p>
+				</li>
+				<li>
+					<a href="shoppingCart.html" class="blueBtn">继续逛逛</a>
+				</li>
+			</ul>
+		</div>
+		<div class="payBox">
+			<div id="payNow">
+				<div class="mny">
+					<div class="box">
+						<div class="ptitle">
+							<p>订单信息</p>
+							<p>应付金额：<span>&yen;500.00</span></p>
+						</div>
+					</div>
+				</div>
+				<div class="order">
+					<div class="oleft">
+						<img src="img/order.png" />
+					</div>
+					<div class="oRight">
+						<ul>
+							<li>
+								<p>订单已提交，等待付款</p>
+							</li>
+							<li>
+								<p>8小时内未付款将自动取消订单</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="payMethods">
+				<div class="method">
+					<div class="box zfb hasChoice">
+						<p>支付宝支付</p>
+					</div>
+				</div>
+				<div class="method">
+					<div class="box wx">
+						<p>微信支付</p>
+					</div>
+				</div>
+			</div>
+			<div id="payMoney">
+				<button class="blueBtn">立即支付&yen;500.00</button>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="js/payNow.js" ></script>
+	</body>
+</html>
+
