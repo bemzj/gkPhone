@@ -21,30 +21,26 @@
 			<!--输入账号-->
 			<div class="formBox step1">
 				<ul>
-					<li class="liborder">
+					<li class="liborder noborder">
 						<div class="account input">
-							<input class="accountInput" type="text" placeholder="手机号/邮箱" />
+							<input class="phoneInput" type="text" placeholder="手机号/邮箱" />
 						</div>
 					</li>
 					<li>
 						<div class="twoChoice">
-							<div class="tcLeft floatl">
+							<div class="tcLeft">
 								<div class="checkBox">
 									<input type="checkbox" checked="checked" />
 								</div>
 								<label>两周内自动登录</label>
 							</div>
-							<div class="tcRight floatr">
-								<a href="###">忘记密码？</a>
-							</div>
-							<div class="clearBoth"></div>
 						</div>
 					</li>
 					<li>
 						<button class="stepBtn1">下一步</button>
 					</li>
 					<li>
-						<button class="backBtn">返回登录</button>
+						<button class="backBtn backLogin">返回登录</button>
 					</li>
 				</ul>
 			</div>
@@ -60,38 +56,28 @@
 							<button class="get">获取验证码</button>
 						</div>
 					</li>
+					<li class="liborder">
+						<div class="account input">
+							<input type="password" placeholder="设置密码：6-16位字母和数字" />
+						</div>
+					</li>
+					<li class="liborder">
+						<div class="account input">
+							<input type="password" placeholder="再次输入密码" />
+						</div>
+					</li>
 					<li>
-						<button class="stepBtn2">下一步</button>
+						<button class="stepBtn2 backBtn prevStep">上一步</button>
+					</li>
+					<li>
+						<button class="stepBtn3">注册</button>
 					</li>
 					<li class="tips">
 						<p>短信kennel会延时，请耐心等待，如果长时间未收到短信，请60秒后重新获取。</p>
 					</li>
 				</ul>
 			</div>
-			<!--第三部-->
-			<div class="formBox step3" style="display: none;">
-				<ul>
-					<li class="formContent">
-						<p>请设置密码</p>
-					</li>
-					<li class="liborder">
-						<div class="account input pwd">
-							<input type="password" placeholder="新密码(6-8位字母和数字组合)" />
-							<a href="###" class="eye eye1"><img src="img/eye1.png"/></a>
-							<a href="###" class="eye eye2" style="display: none;"><img src="img/eye2.png"/></a>
-						</div>
-					</li>
-					<li class="liborder">
-						<div class="account input">
-							<input type="password" placeholder="请再次确认" />
-						</div>
-					</li>
-					<li>
-						<button class="finish">完成</button>
-					</li>
-				</ul>
-			</div>
 		</div>
-		<script type="text/javascript" src="js/forget.js" ></script>
+		<script type="text/javascript" src="js/register.js" ></script>
 	</body>
 </html>

@@ -6,7 +6,7 @@
   height: 100%; }
   #register .registerTitle {
     font-size: 0.32rem;
-    margin: 0.65rem auto 1.2rem;
+    margin: 0.65rem auto;
     text-align: center; }
   #register .formBox {
     width: 86.67%;
@@ -31,8 +31,10 @@
       border: 1px solid #dddddd;
       margin-bottom: 0.4rem;
       position: relative; }
+    #register .formBox ul li.noborder {
+      margin-bottom: 0.3rem; }
     #register .formBox .twoChoice {
-      margin: 0.5rem 0; }
+      margin: 0 0 0.6rem 0; }
     #register .formBox .tcLeft {
       font-size: 0.22rem;
       color: #555555;
@@ -81,7 +83,7 @@
       border: 1px solid #E4E4E4;
       background-color: transparent;
       margin: 0 auto;
-      margin-top: 0.4rem;
+      margin-top: 0.3rem;
       font-size: 0.26rem;
       color: #555555; }
     #register .formBox .get {
@@ -95,6 +97,9 @@
       background-color: transparent;
       border-left: 1px solid #dddddd;
       border-radius: 0px; }
+    #register .formBox .stepBtn2 {
+      margin-bottom: 0.3rem;
+      margin-top: 0.6rem; }
     #register .formBox .eye {
       position: absolute;
       top: 0.27rem;

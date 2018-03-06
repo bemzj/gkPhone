@@ -104,7 +104,8 @@
     text-align: justify;
     margin-left: 24%;
     font-size: 0.26rem;
-    border: 0px; }
+    border: 0px;
+    resize: none; }
 #addAddress ul li.textBox {
   height: 1.2rem; }
   #addAddress ul li.textBox p {

@@ -8,7 +8,7 @@ $blue:#0068b7;
     height:100%;
     .registerTitle{
         font-size:0.32rem;
-        margin: 0.65rem auto 1.2rem;
+        margin: 0.65rem auto;
         text-align: center;
     }
     .formBox{
@@ -40,8 +40,11 @@ $blue:#0068b7;
             margin-bottom:0.4rem;
             position: relative;
         }
+        ul li.noborder{
+            margin-bottom: 0.3rem;
+        }
         .twoChoice{
-            margin:0.5rem 0;
+            margin:0 0 0.6rem 0;
         }
         .tcLeft{
             font-size:0.22rem;
@@ -101,7 +104,7 @@ $blue:#0068b7;
             border: 1px solid #E4E4E4;
             background-color: transparent;
             margin: 0 auto;
-            margin-top: 0.4rem;
+            margin-top: 0.3rem;
             font-size: 0.26rem;
             color: $black;
         }
@@ -116,6 +119,10 @@ $blue:#0068b7;
             background-color: transparent;
             border-left: 1px solid #dddddd;
             border-radius: 0px;
+        }
+        .stepBtn2{
+            margin-bottom: 0.3rem;
+            margin-top: 0.6rem;
         }
         .eye{
             position: absolute;
