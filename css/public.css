@@ -104,22 +104,39 @@ header {
   -webkit-line-clamp: 3;
   overflow: hidden; }
 
-#doctor {
-  width: 92%;
-  margin: 0 auto; }
-  #doctor .doctor {
-    width: 98%;
-    margin: 0 auto;
-    border-top: 1px solid #cecece; }
-    #doctor .doctor p {
-      font-size: 0.4rem;
-      color: #000000;
-      line-height: 1rem; }
-    #doctor .doctor a {
+footer {
+  background-color: #333333;
+  padding: 0.4rem 0 0; }
+  footer .footLink {
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #484848; }
+    footer .footLink a {
       display: block;
-      margin-top: 0.2rem;
-      line-height: 0.8rem;
-      color: #555555;
-      font-size: 0.26rem; }
+      width: 50%;
+      line-height: 0.5rem;
+      font-size: 0.26rem;
+      color: white;
+      text-indent: 0.2rem; }
+  footer .erAndPhone {
+    border-bottom: 1px solid #484848; }
+    footer .erAndPhone .erBox {
+      width: 2rem;
+      height: 2rem;
+      margin: 0 auto;
+      margin-top: 0.6rem;
+      background-color: #dddddd; }
+    footer .erAndPhone .tellphone {
+      text-align: center;
+      font-size: 0.4rem;
+      line-height: 1.0rem;
+      color: white; }
+  footer .copy {
+    width: 100%;
+    font-size: 0.15rem;
+    color: #6e6e6e;
+    line-height: 0.4rem;
+    padding: 0.25rem 0; }
+    footer .copy p {
+      text-indent: 0.1rem; }
 
 /*# sourceMappingURL=public.css.map */

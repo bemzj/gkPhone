@@ -34,6 +34,7 @@ $color6:#666666;
 }
 #cj{
     padding: 0.6rem  0 0;
+    overflow-x: hidden;
     .cjTitle{
         line-height: 0.9rem;
         font-size: 0.34rem;
@@ -156,6 +157,28 @@ $color6:#666666;
                 width: 100%;
                 border-bottom: 1px solid #cecece;
             }
+        }
+    }
+}
+#doctor{
+    width: 92%;
+    margin: 0 auto;
+    .doctor{
+        width: 98%;
+        margin: 0 auto;
+        border-top:1px solid #cecece;
+        p {
+            font-size: 0.4rem;
+            color: #000000;
+            line-height: 1rem;
+        }
+        
+        a {
+            display: block;
+            margin-top: 0.2rem;
+            line-height: 0.8rem;
+            color: #555555;
+            font-size: 0.26rem;
         }
     }
 }
