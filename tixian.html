@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>提现</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/tixian.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/rem.js"></script>
+</head>
+<body>
+    <div class="title">提现奖励金</div>
+    <div class="list1">
+        <span>提现帐号：</span>
+        <div class="weixin">
+            <img src="img/icon_1.jpg" alt="">
+            <span class="name">KSIW***SJI</span>
+        </div>
+        <div class="zhifubao">
+            <img src="img/icon_2.png" alt="">
+            <span class="name1">未绑定</span>
+        </div>
+    </div>
+    <div class="list2">
+        <span>提现金额：</span>
+        <input type="text" placeholder="请输入提现的金额">
+    </div>
+    <div class="list3">可提现奖励金<span>90.00</span>元</div>
+    <div class="list4">
+        <span>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</span>
+        <input type="password">
+    </div>
+    <div id="btn" class="list5">提现</div>
+    <div class="mask"></div>
+    <div class="pop">
+        <div class="pop-title">提现成功</div>
+        <img src="img/icon_3.png" alt="">
+        <div class="mes1">90.00元鼓励金已成功提现到</div>
+        <div class="mes2">微信帐号JIE***DH中请注意查收</div>
+        <div id="ok" class="ok">完成</div>
+    </div>
+    <script>
+        $('#btn').click(function () {
+            $('.mask').show();
+            $('.pop').show();
+        })
+        $('#ok').click(function () {
+            $('.mask').hide();
+            $('.pop').hide()
+        })
+    </script>
+</body>
+</html>

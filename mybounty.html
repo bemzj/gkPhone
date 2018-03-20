@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>名医医院介绍</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/myBounty.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/rem.js"></script>
+</head>
+<body>
+    <div class="mask"></div>
+    <div class="tishi">
+        <div class="tishi-head">提示</div>
+        <div class="tishi-info">提现需要绑定支付宝或微信.</div>
+        <div class="tishi-info1">可提现到支付宝或者微信账户中.</div>
+        <div class="up">马上去绑定</div>
+    </div>
+    <div class="head">
+        <div class="left">
+            <div class="left-div1">
+                <span>￥</span>
+                <span>90.00</span>
+            </div>
+            <div class="left-div2">可在购买产品时使用（可提现）</div>
+        </div>
+        <div id="btnClick" class="right">提现</div>
+    </div>
+    <div class="list1">
+        <ul>
+            <li class="rowHead">
+                <div class="col1">收入时间</div>
+                <div class="col">收入金额</div>
+                <div class="col3">获取途径</div>
+            </li>
+            <li class="row1">
+                <div class="col1">2017-08-09</div>
+                <div class="col2">10.09元</div>
+                <div class="col3">邀请王文杰加入国康</div>
+            </li>
+            <li class="row2">
+                <div class="col1">2017-08-09</div>
+                <div class="col2">10.09元</div>
+                <div class="col3">邀请王文杰加入国康</div>
+            </li>
+            <li class="row3">
+                <div class="col1">2017-08-09</div>
+                <div class="col2">10.09元</div>
+                <div class="col3">购买国康养老保险</div>
+            </li>
+            <li class="row4">
+                <div class="col1">2017-08-09</div>
+                <div class="col2">10.09元</div>
+                <div class="col3">邀请王文杰加入国康</div>
+            </li>
+            <li class="row5">
+                <div class="col1">2017-08-09</div>
+                <div class="col2">10.09元</div>
+                <div class="col3">邀请王文杰加入国康</div>
+            </li>
+            <li class="row6">
+                <div class="col1">2017-08-09</div>
+                <div class="col2">10.09元</div>
+                <div class="col3">购买国康养老保险</div>
+            </li>
+        </ul>
+    </div>
+    <div class="list2">
+        <div class="list2-head">奖励金的常见问题</div>
+        <div class="proList">
+            <div class="proName">1.获取奖励金的方法常见问题</div>
+            <div class="proInfo">通过相关连接引导他人进入平台产生购买产品，系统自动返现推荐人。推荐人通过绑定个人信息，注册登录后，可获得奖励金</div>
+        </div>
+        <div class="proList">
+            <div class="proName">2.什么是奖励金</div>
+            <div class="proInfo">奖励金是国康通过邀请用户注册获得，可购买国康商品产品，可提现。</div>
+        </div>
+        <div class="proList">
+            <div class="proName">3.奖励金可怎么提现</div>
+            <div class="proInfo">提现需要绑定支付宝或微信，可提现到支付宝或者微信账户中</div>
+        </div>
+    </div>
+    <script>
+        $("#btnClick").click(function () {
+            $(".mask").show();
+            $(".tishi").show();
+            $("body").css({
+                "overflow":"hidden"
+            })
+        });
+    </script>
+</body>
+</html>
