@@ -141,76 +141,97 @@ body{
     color: #0068b7;
     border-bottom: .01rem solid #0068b7;
 }
-
-.secondList .wrapList{
+.comment-content{
+    display: inline-block;
+    width: 95%;
+    border-bottom: 1px solid #cecece;
+}
+.con-info{
+    overflow: hidden;
+    padding: .4rem 0;
+}
+.comment-content .head {
+    display: inline-block;
+    width: 1rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    float: left;
+}
+.comment-content .head img{
+    width: 1rem;
+    height: 1.1rem;
+}
+.comment-content .wrap{
+    width: 80%;
+    float: left;
+    font-size: .2rem;
+    text-align: left;
+    margin-left: .2rem;
+    border-bottom: 1px solid #cecece;
+    padding: 0 0 .3rem 0;
+}
+.comment-content .wrap .commentName{
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .25rem;
+    font-weight: bold;
+}
+.comment-content .wrap .commentTime{
+    height: .5rem;
+    font-size: .1rem;
+    color: #888888;
+    line-height: .5rem;
+}
+.comment-content .wrap .commentReply{
+    width: 90%;
+    overflow: hidden;
+    padding: .4rem;
+    background-color: #f6f6f6;
+}
+.comment-content .wrap .commentReply div{
+    float: left;
+}
+.comment-content .wrap .commentReply .reply-name{
+    color: #006fbb;
+}
+.comment-content .wrap .relay-img{
+    width: 100%;
+    margin-bottom:.2rem;
+    overflow: hidden;
+}
+.comment-content .wrap .relay-img img{
+    float: left;
+    width: 1rem;
+    height: 1rem;
+    margin-left: .1rem;
+}
+.secondList .good{
+    width: 100%;
+    height: 1.5rem;
     background-color: #fff;
-    width: 100%;
+    border-bottom: 2px solid #f4f4f4;
+    overflow: hidden;
 }
-.secondList .wrapList .list1{
-    width: 100%;
-    height: 3.2rem;
-    font-size: .1rem;
-}
-.secondList .wrapList .list1>div{
+.secondList .good>div{
     float: left;
-    width: 48%;
-    height: 99%;
+    width: 50%;
 }
-.secondList .wrapList .list1 .list1-left{
-    padding: .1rem;
-    height: 93%;
+.secondList .good .pers{
+    float: left;
+    width: 50%;
+    color: #ff0000;
+    font-size: .7rem;
+    text-align: center;
+    line-height: 1.5rem;
 }
-.secondList .wrapList .list1 .list1-left span{
+.secondList .good .good-left{
+    font-size: .2rem;
+}
+.secondList .good .good-left span{
     display: block;
+    color: #000;
 }
-.secondList .wrapList .list1 .list1-left .line{
-    height: 1px;
-    background-color: #000000;
-    width: .9rem;
-}
-.secondList .wrapList .list1 .list1-right img{
-    width: 100%;
-    height: 100%;
-}
-.secondList .wrapList .list1 .btnList a{
-    float: left;
-    width: .4rem;
-    height: .4rem;
-}
-.secondList .wrapList .list1 .btnList a img{
-    width: 100%;
-}
-.secondList .wrapList .list2{
-    width: 100%;
-    height: 3.2rem;
-    font-size: .1rem;
-}
-.secondList .wrapList .list2>div{
-    float: left;
-    width: 48%;
-    height: 99%;
-}
-.secondList .wrapList .list2 .list2-right{
-    padding: .1rem;
-    height: 93%;
-}
-.secondList .wrapList .list2 .list2-right span{
-    display: block;
-}
-.secondList .wrapList .list2 .list2-right .line{
-    height: 1px;
-    background-color: #000000;
-    width: .9rem;
-}
-.secondList .wrapList .list2 .list2-left img{
-    width: 100%;
-    height: 100%;
-}
-.secondList .wrapList .list2 .btnList a{
-    float: left;
-    width: .4rem;
-    height: .4rem;
-}
-.secondList .wrapList .list2 .btnList a img{
-    width: 100%;
+.secondList .good .good-left .left-span1{
+    margin-top: .4rem;
 }

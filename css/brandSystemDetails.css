@@ -52,16 +52,20 @@ body{
     text-align: center;
     position: relative;
 }
+#top{
+    display: none;
+    width: .7rem;
+    position: fixed;
+    bottom: .3rem;
+    right: .3rem;
+}
+#top .top{
+    width: 100%;
+    height: 100%;
+}
 .content-bottom img{
     width: 1rem;
     display: inline-block;
-}
-.content-bottom img.top{
-    width: .7rem;
-    display: inline-block;
-    position: absolute;
-    top: -2rem;
-    right: .3rem;
 }
 .content .sim{
     width: 97%;

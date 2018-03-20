@@ -133,7 +133,7 @@ body{
 .secondList .tabList div div{
     position: absolute;
     left: 50%;
-    top: .4rem;
+    top: .38rem;
     transform: translate(-50%,-50%);
     text-align: center;
 }
@@ -141,76 +141,64 @@ body{
     color: #0068b7;
     border-bottom: .01rem solid #0068b7;
 }
+#newsList {
+    background: white;
+    width: 100%; }
 
-.secondList .wrapList{
-    background-color: #fff;
-    width: 100%;
-}
-.secondList .wrapList .list1{
-    width: 100%;
-    height: 3.2rem;
-    font-size: .1rem;
-}
-.secondList .wrapList .list1>div{
-    float: left;
-    width: 48%;
-    height: 99%;
-}
-.secondList .wrapList .list1 .list1-left{
-    padding: .1rem;
-    height: 93%;
-}
-.secondList .wrapList .list1 .list1-left span{
+.cjBottom {
+    width: 89.33%;
+    margin: 0 auto;
+    padding: 0.2rem 0 0.5rem; }
+.cjBottom .cjbBox p {
+    font-size: 0.4rem;
+    color: #000000;
+    line-height: 1rem; }
+.cjBottom .cjl {
     display: block;
-}
-.secondList .wrapList .list1 .list1-left .line{
-    height: 1px;
-    background-color: #000000;
-    width: .9rem;
-}
-.secondList .wrapList .list1 .list1-right img{
     width: 100%;
+    position: relative;
+    margin: 0.4rem 0 0; }
+.cjBottom .cjl:nth-child(1) {
+    margin-top: 0px; }
+.cjBottom .cjl:nth-last-child(1) .cjContent::after {
+    display: none; }
+.cjBottom .cjImg {
+    width: 21.83%;
+    margin-left: 78.17%; }
+.cjBottom .cjImg > img {
+    width: 100%; }
+.cjBottom .cjContent {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 68.03%;
+    margin-left: 0.97%;
     height: 100%;
-}
-.secondList .wrapList .list1 .btnList a{
-    float: left;
-    width: .4rem;
-    height: .4rem;
-}
-.secondList .wrapList .list1 .btnList a img{
+    line-height: 0.38rem; }
+.cjBottom .cjContent p:nth-child(1) {
     width: 100%;
-}
-.secondList .wrapList .list2{
+    font-size: 0.24rem;
+    color: #000000; }
+.cjBottom .cjContent p:nth-child(2) {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 0.2rem;
+    color: #888888; }
+.cjBottom .cjContent::after {
+    content: "";
+    position: absolute;
+    bottom: -0.2rem;
+    left: 0;
     width: 100%;
-    height: 3.2rem;
-    font-size: .1rem;
-}
-.secondList .wrapList .list2>div{
-    float: left;
-    width: 48%;
-    height: 99%;
-}
-.secondList .wrapList .list2 .list2-right{
-    padding: .1rem;
-    height: 93%;
-}
-.secondList .wrapList .list2 .list2-right span{
+    border-bottom: 1px solid #cecece; }
+.getMore {
+    width: 100%;
+    font-size: 0.22rem;
+    line-height: 1.0rem;
+    background-color: #f4f4f4;
+    text-align: center; }
+.getMore a {
     display: block;
-}
-.secondList .wrapList .list2 .list2-right .line{
-    height: 1px;
-    background-color: #000000;
-    width: .9rem;
-}
-.secondList .wrapList .list2 .list2-left img{
     width: 100%;
-    height: 100%;
-}
-.secondList .wrapList .list2 .btnList a{
-    float: left;
-    width: .4rem;
-    height: .4rem;
-}
-.secondList .wrapList .list2 .btnList a img{
-    width: 100%;
-}
+    color: #999999; }
