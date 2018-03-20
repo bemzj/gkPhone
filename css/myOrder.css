@@ -1,0 +1,137 @@
+body {
+  background: #f4f4f4; }
+
+#orderChoice {
+  width: 100%;
+  background-color: white; }
+  #orderChoice .floatl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    -webkit-flex-direction: column;
+    width: 25%; }
+    #orderChoice .floatl a {
+      display: block;
+      height: 100%;
+      font-size: 0.26rem;
+      color: #888888;
+      line-height: 0.8rem;
+      position: relative; }
+    #orderChoice .floatl .aHaschoice {
+      color: #0068b7; }
+    #orderChoice .floatl .aHaschoice::after {
+      position: absolute;
+      content: "";
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      border-bottom: 2px solid #0068b7; }
+
+.box {
+  position: relative;
+  border-bottom: 1px solid #e4e4e4; }
+  .box p {
+    line-height: 0.8rem;
+    color: #333333;
+    font-size: 0.28rem; }
+  .box p:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0; }
+
+.ol01 p:nth-child(2) {
+  font-size: 0.24rem;
+  color: #555555; }
+
+.ol02 p:nth-child(1) {
+  font-size: 0.24rem;
+  color: #555555; }
+
+.ol02 p:nth-child(2) {
+  font-size: 0.24rem;
+  color: #555555; }
+  .ol02 p:nth-child(2) span {
+    color: #f81200;
+    font-weight: bold; }
+
+.ol03 {
+  position: relative;
+  padding: 0.3rem 0;
+  border: none; }
+  .ol03 .oltLeft {
+    width: 23.94%; }
+    .ol03 .oltLeft > img {
+      width: 100%; }
+  .ol03 .oltRight {
+    position: absolute;
+    left: 29.58%;
+    top: 0.28rem;
+    height: 70%;
+    width: 70%; }
+    .ol03 .oltRight p {
+      position: relative;
+      line-height: 0.28rem; }
+    .ol03 .oltRight p:nth-child(2) {
+      margin-top: 0.2rem; }
+  .ol03 .twoBtn {
+    position: absolute;
+    width: 100%;
+    bottom: 0.3rem; }
+    .ol03 .twoBtn button {
+      width: 22.53%;
+      height: 0.5rem;
+      border: 1px solid #e4e4e4;
+      border-radius: 0.25rem;
+      background-color: transparent;
+      display: block;
+      color: #0068b7;
+      font-size: 0.2rem;
+      margin-left: 0.1rem; }
+    .ol03 .twoBtn .bBtn {
+      color: white;
+      border-color: #0068b7;
+      background-color: #0068b7; }
+
+#orderList {
+  margin-top: 0.2rem;
+  background-color: white;
+  width: 100%; }
+
+.nothing {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  -webkit-flex-direction: column; }
+  .nothing ul {
+    width: 100%; }
+  .nothing img {
+    width: 20.8%;
+    margin: 0 auto;
+    display: block; }
+  .nothing p {
+    font-size: 0.24rem;
+    text-align: center;
+    margin: 0.3rem 0 0.5rem; }
+  .nothing a {
+    display: block;
+    width: 34.67%;
+    margin: 0 auto;
+    height: 0.8rem;
+    background-color: #0068b7;
+    border-radius: 0.4rem;
+    font-size: 0.26rem;
+    line-height: 0.8rem;
+    color: white;
+    text-align: center; }
+
+/*# sourceMappingURL=myOrder.css.map */

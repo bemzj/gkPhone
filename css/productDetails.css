@@ -214,3 +214,132 @@ body{
 .secondList .wrapList .list2 .btnList a img{
     width: 100%;
 }
+#details{
+	position: fixed;
+	left: 0;
+	bottom: -100%;
+	
+	width: 100%;
+	z-index: 100;
+	
+}
+.dt01 {
+	padding: 0.2rem 0 0;
+	border-bottom: 1px solid #d2d2d2;
+}
+.dt01 ul li{
+	line-height: 0.5rem;
+}
+.dt01 ul li:nth-child(1){
+	font-size: 0.32rem;
+	color: #333333;
+}
+.dt01 ul li:nth-child(2){
+	font-size: 0.32rem;
+	color: #fb0404;
+}
+.dt01 ul li:nth-child(2) span{
+	font-size: 0.26rem;
+}
+.dt01 ul li:nth-child(3){
+	font-size: 0.22rem;
+	color: #333333;
+}
+.dt02{
+	padding: 0.2rem 0 0;
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	color: #6b6b6b;
+}
+.dt02 p{
+	margin-bottom: 0.1rem;
+}
+.dt02 button{
+	width: 64%;
+	height: 0.7rem;
+	display: block;
+	border-radius: 4px;
+	border: 1px solid #bfbfbf;
+	background-color: transparent;
+	color: #666666;
+	font-size: 0.28rem;
+	margin-bottom: 0.2rem;
+}
+.dt02 .bBtn{
+	color: #333333;
+	border-color: #2e6db5;
+}
+.dt03{
+	padding: 0 0 0.4rem 0 ;
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	color: #6b6b6b;
+	border-bottom: 1px solid #dcdcdc;
+}
+.dt02 p{
+	margin-bottom: 0.1rem;
+}
+.number .noReduce {
+          opacity: 0.4; }
+.number .add {
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: 30%;
+          height: 100%;
+          background: url(../img/add.png) no-repeat center center;
+          background-size: 30%; }
+.number .reduce {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 30%;
+          height: 100%;
+          background: url(../img/reduce.png) no-repeat center center;
+          background-size: 30%; }
+.number p {
+          font-size: 0.28rem;
+          text-align: center;
+          line-height: 0.6rem;
+          color: #555555;
+          font-family: arial;
+          margin-top: 1px; }
+.number {
+        position: relative;
+
+        width: 50%;
+    	height: 0.6rem;
+        border: 1px solid #e4e4e4;
+        border-radius: 5px;
+        overflow: hidden; }
+.dt04 button{
+	height: 0.7rem;
+	font-size: 0.28rem;
+	color: white;
+	display: block;
+	width: 100%;
+	background-color: #016fbc;
+	border-radius: 0.35rem;
+}
+.dt04{
+	padding: 0.2rem 0;
+}
+.details{
+	background: white;
+	position: relative;
+}
+.close{
+	position: absolute;
+	top: 0.4rem;
+	right: 2.65%;
+	width: 0.3rem;
+}
+.close img{
+	width: 100%;
+}
+
+.doc{
+	display: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.1);
+}

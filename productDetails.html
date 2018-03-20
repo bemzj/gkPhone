@@ -106,6 +106,64 @@
                 </div>
             </div>
         </div>
+        <div id="details">
+        	<div class="doc">
+        		
+        	</div>
+        	<div class="details">
+        		<a href="###" class="close"><img src="img/close.png"/></a>
+        		<div  class="dt01">
+        			<div class="box">
+        				<ul>
+		        			<li>
+		        				<p>国康健康重大疾病保险计划</p>
+		        			</li>
+		        			<li>
+		        				<p><span>&yen;</span>500.00</p>
+		        			</li>
+		        			<li>
+		        				<p>已选：为自己1份</p>
+		        			</li>
+		        		</ul>
+        			</div>
+	        	</div>
+	        	<div class="dt02">
+	        		<div class="box">
+	        			<ul>
+			        		<li>
+			        			<p>为谁投保</p>
+			        			</li>
+			        			<li>
+			        				<button class="bBtn">为自己</button>
+			        			</li>
+			        			<li>
+			        				<button>为自己</button>
+			        			</li>
+			        			<li>
+			        				<button>为自己</button>
+			        			</li>
+			        			<li>
+			        				<button>为自己</button>
+			        			</li>
+			        		</ul>
+	        		</div>
+	        		
+	        	</div>
+	        	<div class="dt03">
+	        		<div class="box">
+	        			<p>保额</p>
+	        			<div class="number">
+							<p>1</p>
+							<button class="reduce noReduce"></button>
+							<button class="add"></button>
+						</div>
+	        		</div>
+	        	</div>
+	        	<div class="dt04 box">
+	        		<button>确定</button>
+	        	</div>
+        	</div>
+        </div>
         <!--尾部-->
         <footer>
             <div class="box">
@@ -134,6 +192,59 @@
                 </div>
             </div>
         </footer>
+        <script>
+        	//添加
+			$('.add').on('click',function(){
+				var index = parseInt($(this).prevAll('p').html());
+				$(this).prevAll('p').html(++index);
+				if(index>0)
+				{
+					$(this).prevAll('.reduce').removeClass('noReduce');
+				}
+			});
+			//减少
+			$('.reduce').on('click',function(){
+				var index = parseInt($(this).prevAll('p').html());		
+				if(index!=1)
+				{
+					$(this).prevAll('p').html(--index);
+					if(index==1)
+					{
+						$(this).addClass('noReduce');
+					}
+				}
+			});
+			setTimeout(function(){
+				$('.doc').height($(window).height()-$('.details').height());
+			},100);
+			
+			$('.dt02 button').on('click',function(){
+				$('.dt02 button').removeClass('bBtn');
+				$(this).addClass('bBtn');
+			});
+			$('.selectBar').on('click',function(){
+				$('#details').stop().animate({'bottom':'0%'},500,function(){
+					
+				});
+				$('.doc').stop().fadeIn(500);
+			});
+			$('.doc').on('click',function(){
+				$('.doc').stop().fadeOut(250,function(){
+					
+				});
+				$('#details').stop().animate({'bottom':'-100%'},500,function(){
+					
+				});
+				
+			});
+			$('.close').on('click',function(){
+				$('.doc').stop().fadeOut(250);
+				$('#details').stop().animate({'bottom':'-100%'},500,function(){
+					
+				});
+				
+			});
+        </script>
     </div>
 </body>
 </html>
