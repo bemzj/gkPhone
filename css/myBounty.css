@@ -1,0 +1,144 @@
+html{
+    background-color: #e4e4e4;
+}
+body{
+    position: relative;
+}
+.mask{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+.tishi{
+    width: 80%;
+    position: fixed;
+    z-index: 101;
+    font-size: .2rem;
+    color: #555555;
+    background-color: #fff;
+    -webkit-border-radius: .1rem;
+    -moz-border-radius: .1rem;
+    border-radius: .1rem;
+    top: 50%;
+    left: 50%;
+    margin-left: -2.5rem;
+    margin-top: -2.5rem;
+    text-align: center;
+    display: none;
+}
+.tishi .tishi-head{
+    text-align: center;
+    font-size: .3rem;
+    color: #0167b1;
+    font-weight: bold;
+    padding: .2rem .8rem;
+    border-bottom: 1px solid #e4e4e4;
+}
+.tishi .tishi-info{
+    padding: .5rem 1rem .2rem;
+}
+.tishi .tishi-info1{
+    padding: .1rem .8rem .2rem;
+}
+.tishi .up{
+    width: 2.5rem;
+    height: .6rem;
+    background-color: #0167b1;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    border-radius: .3rem;
+    text-align: center;
+    line-height: .6rem;
+    color: #fff;
+    margin: .3rem 0 .7rem 1.2rem;
+}
+.head{
+    background-color: #eb4837;
+    height: 1.5rem;
+    padding: .5rem;
+    font-size: .65rem;
+    color: #fff;
+    position: relative;
+}
+.head .left{
+    float: left;
+}
+.head .left .left-div1{
+    width: 3rem;
+}
+.head .left .left-div2{
+    width: 3.1rem;
+    font-size: .1rem;
+}
+.head .right{
+    position: absolute;
+    right: .2rem;
+    background-color: #fff;
+    font-size: .1rem;
+    width: 1.5rem;
+    height: .5rem;
+    -webkit-border-radius: .23rem;
+    -moz-border-radius: .23rem;
+    border-radius: .23rem;
+    color: #eb4837;
+    text-align: center;
+    line-height: .5rem;
+    top: 50%;
+    margin-top: -.25rem;
+}
+.list1 ul{
+    padding: 0;
+    margin: 0;
+    margin-top: .1rem;
+    font-size: .13rem;
+    background-color: #e4e4e4;
+}
+.list1 ul li{
+    width: 100%;
+    height: .95rem;
+}
+.list1 ul li div.col2{
+    color: #eb4837;
+}
+.list1 ul li div{
+    float: left;
+    width: 33%;
+    margin-left: 1px;
+    margin-top: 1px;
+    background-color: #fff;
+    height: 100%;
+    text-align: center;
+    line-height: .95rem;
+}
+.list1 ul li.rowHead{
+    color: #0167b1;
+    font-weight: bold;
+}
+.list2{
+    width: 100%;
+    background-color: #fff;
+    margin-top: .27rem;
+}
+.list2 .list2-head{
+    font-size: .18rem;
+    color: #0167b1;
+    font-weight: bold;
+    padding: .3rem .15rem ;
+}
+.list2 .proList{
+    font-size: .18rem;
+    padding: .3rem .15rem;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.list2 .proName{
+    font-weight: bold;
+}
+.list2 .proInfo{
+    color: #898989;
+    font-size: .1rem;
+    padding: .15rem .2rem;
+}
